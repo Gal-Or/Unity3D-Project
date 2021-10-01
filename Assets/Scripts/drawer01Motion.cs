@@ -76,6 +76,7 @@ public class drawer01Motion : MonoBehaviour
         {
             animator.SetBool("open", !isDrawerOpened);
             isDrawerOpened = !isDrawerOpened;
+            drawerSound.PlayDelayed(0.6f);
 
 
         }

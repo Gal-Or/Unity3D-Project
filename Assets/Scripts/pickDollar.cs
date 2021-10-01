@@ -31,7 +31,7 @@ public class pickDollar : MonoBehaviour
     private void OnMouseDown()
     {
         dollarInDrawer.SetActive(false);
-        pickSound.PlayDelayed(0.0f);
+        pickSound.PlayDelayed(0.4f);
         numDollar++;
         dollarText.text = "Money: " + numDollar*100 +"$";
 
